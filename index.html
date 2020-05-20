@@ -4,24 +4,21 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sai Ganesh's Personal Site</title>
-    </head>
+    </head> 
     <body>
-        <img src="saiganesh.jpg" alt = "Sai Ganesh Profile Picture">
-        <h1>Shankar Sai Ganesh</h1>   
-        <p><em>Mechanical Engineering Undergraduate</em></p>
-        <p><strong><em>National University of Singapore</em></strong></p>
-        <p>Specialised in offshore oil and gas technology. Interested in programming languages such as Python and HTML,CSS,JS</p>
-        <h4>My Personal Websites</h4>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/shankarsaiganesh/">My LinkedIn Profile</a></li>
-                <li><a href="https://github.com/ssaiganesh">My GitHub Repositories</a></li>
-            </ul>
-        </h4>
-        <h4><a href="projects.html">My Projects</a></h4>
-        <h4><a href="contact_me.html">Contact Me</a></h4>
+        <table cellspacing = "20"> <!--highly recommended that cellspacing etc should be done using css. This is just to show html methods-->
+            <tr>
+                <td><img src="saiganesh.jpg" alt = "Sai Ganesh Profile Picture"></td>
+                <td><h1>Shankar Sai Ganesh</h1>   
+                    <p><em>Mechanical Engineering Undergraduate</em></p>
+                    <p><strong><em>National University of Singapore</em></strong></p>
+                    <p>Specialised in offshore oil and gas technology. Interested in programming languages such as Python and HTML,CSS,JS</p></td>
+            </tr>
+        </table>
+        
         <hr>
         <h3>Work Experience</h3>
-        <table><!-- no longer recommend using attributes for styling using html. It has been deprecreated. Use CSS instead for styling. Possible to style using html but highly discouraged-->
+        <table cellspacing = "10"><!-- no longer recommend using attributes for styling using html. It has been deprecreated. Use CSS instead for styling. Possible to style using html but highly discouraged-->
             <!-- if use html styling.. <table border = "1" >-->
             <thead>
                 <tr>
@@ -41,6 +38,7 @@
                 </tr>
             </tbody>  
         </table>
+        <hr>
         <h3>Education</h3>
         <ul>
             <li>National University of Singapore</li>
@@ -63,5 +61,54 @@
 
 
         </ul>
+        <hr>
+        <h3>Personal Websites</h3>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/shankarsaiganesh/">My LinkedIn Profile</a></li>
+                <li><a href="https://github.com/ssaiganesh">My GitHub Repositories</a></li>
+            </ul>
+        <hr>
+        <h3>Skills </h3>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <table cellspacing = "10">
+                                <tr>
+                                    <td>Autodesk Inventor</td>
+                                    <td>★★★☆☆</td>
+                                </tr>
+                                <tr>
+                                    <td>SolidWorks</td>
+                                    <td>★★★☆☆</td>
+                                </tr>
+                                <tr>
+                                    <td>Python</td>
+                                    <td>★★☆☆☆</td>
+                                </tr>
+                                <tr>
+                                    <td>HTML</td>
+                                    <td>★☆☆☆☆</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                            <table cell spacing = "10">
+                                <tr>
+                                    <td>Team Management</td>
+                                    <td>★★★★☆</td>
+                                </tr>
+                                <tr>
+                                    <td>Leadership</td>
+                                    <td>★★★★☆</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        <hr>
+        <h3><a href="projects.html">My Projects</a></h3>
+        <h4><a href="contact_me.html">Contact Me</a></h4>
     </body>
 </html>
